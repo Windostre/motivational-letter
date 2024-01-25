@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Roboto&family=Roboto+Mono&display=swap');
+
+:root {
+  --black: #0f141e;
+  --blue: blue;
+  --gray: #86898f;
+  --gray-light: #f1f1f1;
+
+  --bg-blue: #c1e7f7;
+  --bg-green: #e5ffe7;
+  --bg-red: #ffe5e5;
+  --bg-yellow: #fff9dc;
+
+  --link: #546c9f;
+  --skills-border: #fcb7b7;
+
+  --shadow-foto: rgba(0, 0, 0, 0.25);
+  --shadow-card: rgba(134, 137, 143, 0.25);
+}
+
+body {
+    background-color: #f1f1f1; /* var(--gray-light); */
+    color: #0f141e; /* var(--black); */
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  a {
+    color: #546c9f; /* var(--link); */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: blue; /* var(--blue); */
+  }
+  
+  a:visited {
+    color: #546c9f; /* var(--link); */
+  }
+  
+  .avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px gba(0, 0, 0, 0.25); /*var(--shadow-foto); */
+  }
+
+  .container {
+    max-width: 750px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .info {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .info p {
+    color: #86898f; /* var(--gray); */
+    margin: 0;
+    font-style: italic;
+    text-decoration: none;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+  }
+  
+  @media (max-width: 700px) {
+    .info {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  .info-text {
+    margin-left: 40px;
+  }
+  
+  .info-text h4 {
+    margin-bottom: 10px;
+  }
+
+  .greeting {
+    background-color: #FFEFD5;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .motivation {
+    background-color: var(--bg-yellow);
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .background {
+    background-color: #98FB98;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .metrics{
+    background-color: #E0FFFF;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .conclusion{
+    background-color: #E6E6FA;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .signature{
+    background-color: var(--bg-yellow);
+    border-radius: 15px;
+    padding: 10px;
+  }
